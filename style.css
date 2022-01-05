@@ -13,7 +13,7 @@ body {
 }
 .stay {
     width: 50%;
-    padding: 80px;
+    padding: 40px 80px 20px;
 }
 .focused {
     border-left: 5px solid;
@@ -22,14 +22,15 @@ body {
 }
 .photo {
     width: 50%;
-    padding: 100px;
+    padding: 40px 80px 20px;
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 40px; 
     margin-left: 8px;
-}
+    letter-spacing: 2px;
+} 
 .miss {
     color: #686de0; 
 }
@@ -48,10 +49,66 @@ h1 {
 }
  
 .photo img {
-    width: 360px;
-    height: 360px;
-    border-radius: 30%;
+    width: 350px;
+    height: 350px;
+    background: rgb(235, 35, 35);
+    border-radius: 24%;
     border: 30px solid;
     border-image: linear-gradient(#30336b, green, #e056fd);
     border-image-slice: 1; 
 }
+
+
+
+/***********
+************Mission-Section**********
+*************/
+.mission-sectoin {
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: tahoma;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 20px; 
+    font-family: tahoma; 
+}
+
+.items {
+    display: flex;
+    padding: 0 80px; 
+}
+.items-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid darkorange;
+    border-radius: 30%;
+}
+.mission {
+    width: 25%;  
+    background: #f6e58d;
+    padding: 15px; 
+    margin: auto;
+    border-radius: 8%;
+}
+.vission {
+    background: #c7ecee;
+    width: 25%;   
+    padding: 15px; 
+    margin: auto;
+    border-radius: 8%;
+}
+ 
+.goals {
+    background: #81ecec;
+    width: 25%;   
+    padding: 15px; 
+    margin: auto;
+    border-radius: 8%;
+} 
+
