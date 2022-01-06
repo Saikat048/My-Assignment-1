@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    
+    margin: 0; 
 }
 
 /***********
@@ -10,16 +9,22 @@ body {
   
 .header-section {
     display: flex;
+    padding: 30px 0;
+    background-image: linear-gradient(#48dbfb, #c7ecee, #dcdde1); 
 }
+
 .stay {
     width: 50%;
     padding: 40px 80px 20px;
 }
+
 .focused {
     border-left: 5px solid;
     border-image: linear-gradient(#30336b, #e056fd);
     border-image-slice: 1; 
+    line-height: 35px;
 }
+
 .photo {
     width: 50%;
     padding: 40px 80px 20px;
@@ -27,16 +32,19 @@ body {
 
 h1 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 40px; 
+    font-size: 45px; 
     margin-left: 8px;
     letter-spacing: 2px;
-} 
+}
+
 .miss {
     color: #686de0; 
 }
+
 .button-link { 
-    margin: 30px 0 40px;
+    margin: 45px 0 40px;
 }
+
 .button-link a {
     text-decoration: none; 
     color: white;
@@ -44,10 +52,15 @@ h1 {
     font-family: tahoma;
     padding: 15px 35px;
     border-radius: 8px;
-    background-image: linear-gradient(#1A2634, #686de0); 
-
+    background: #454ac9; 
+    transition: .4s;
 }
- 
+
+.button-link a:hover {
+    background:#1A2634;
+    color: #F7EEBA; 
+}
+
 .photo img {
     width: 350px;
     height: 350px;
@@ -63,18 +76,21 @@ h1 {
 /***********
 ************Mission-Section**********
 *************/
+
+
 .mission-sectoin {
-    margin-bottom: 70px;
+    background-image: linear-gradient(#f8a5c2, #d1ccc0, #ff9ff3); 
+    padding: 30px 0;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 35px; 
     font-family: tahoma;
     text-align: center; 
     margin-bottom: 50px;
-}
-h3 {
+} 
+
+h4 {
     font-size: 20px; 
     font-family: tahoma; 
 }
@@ -83,12 +99,14 @@ h3 {
     display: flex;
     padding: 0 80px; 
 }
+
 .items-img {
     width: 100px;
     height: 100px;
     border: 3px solid darkorange;
     border-radius: 30%;
 }
+
 .mission {
     width: 25%;  
     background: #f6e58d;
@@ -96,6 +114,7 @@ h3 {
     margin: auto;
     border-radius: 8%;
 }
+
 .vission {
     background: #c7ecee;
     width: 25%;   
@@ -112,3 +131,77 @@ h3 {
     border-radius: 8%;
 } 
 
+
+
+/***********
+************Justin-Section**********
+*************/
+
+.justin-section {
+    display: flex; 
+    background-image: linear-gradient(#ea8685, #CAD3C8, #f7d794); 
+    padding: 30px 0;  
+}
+
+h3 {
+    font-size: 30px; 
+    font-family: tahoma;
+}
+
+
+
+
+/***********
+************Abraham-Section**********
+*************/
+.abraham-section {
+    display: flex;  
+    background-size: 200px; 
+    padding: 30px 0;
+    background-image: linear-gradient(#D6A2E8, #d1d8e0, #45aaf2); 
+} 
+
+
+
+/***********
+************Oguz-Section**********
+*************/
+ .oguz-section {
+     background-image: linear-gradient(#F8EFBA, #9AECDB, #CAD3C8);
+     padding: 30px 0; 
+ }
+
+.oguz-photo {
+    text-align: center;
+}
+
+.oguz-photo img {  
+    border: 3px solid green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+}
+
+.brands {
+    text-align: center;
+    padding: 0 300px;
+} 
+
+/***********
+************Footer-Section**********
+*************/
+
+.footer-section {
+    text-align: center;
+    background: #0B0D17;
+    padding: 30px 0; 
+}
+
+.footer-section h2 {
+    color: white;
+    font-family:  'Courgette' ; 
+}
+ 
+.footer-section p {
+    color: #d8dcf0;
+}
